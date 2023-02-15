@@ -15,7 +15,7 @@ def index():
     count = 1
     a = []
     #api endpoint of doucment data
-    path = "https://github.com/geeva22/Flask-api-for-document-quality-estimation/Aadhar/" #C:\Users\Admin\Downloads\Work-idrbt\crops\Aadhar
+    path = "geeva22/Flask-api-for-document-quality-estimation/Aadhar/" #C:\Users\Admin\Downloads\Work-idrbt\crops\Aadhar
 
     for file_name in os.listdir(path):
         if file_name.split(".")[-1].lower() in {"jpeg", "jpg", "png"}:
